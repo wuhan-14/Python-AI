@@ -21,6 +21,8 @@ print(f"选修了足球，但是没有选修篮球的学生:\n {fb_set2}")
 fb_set3 = {s for s in football_set if s not in basketball_set}
 print(f"选修了足球，但是没有选修篮球的学生:\n {fb_set3}")
 
+print("-------------------------")
+
 all_set = football_set | basketball_set | french_set | art_set
 
 all_list = [*football_set, *basketball_set, *french_set, *art_set]

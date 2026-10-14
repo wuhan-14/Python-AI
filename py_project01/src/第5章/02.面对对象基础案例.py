@@ -92,27 +92,22 @@ class Student:
 
             choice = input("请选择要执行的操作, 输入1-6: ")
 
-            try:
-                match choice:
-                    case "1":  
-                        self.add_student()
-                    case "2":  
-                        self.update_student()
-                    case "3":  
-                        self.delete_student()
-                    case "4":  
-                        self.query_student()
-                    case "5":  
-                        self.list_student()
-                    case "6":  
-                        print("Bye ~")
-                        break
-                    case _:  
-                        print("输入错误, 请选择1-6之间的菜单功能!")
-            except ValueError:
-                print("输入的数据有问题, 请检查, 然后重新输入 !!!")
-            except Exception:
-                print("程序运行出错了, 请重新选择 ~")
+            match choice:
+                case "1":  
+                    self.add_student()
+                case "2":  
+                    self.update_student()
+                case "3":  
+                    self.delete_student()
+                case "4":  
+                    self.query_student()
+                case "5":  
+                    self.list_student()
+                case "6":  
+                    print("Bye ~")
+                    break
+                case _:  
+                    print("输入错误, 请选择1-6之间的菜单功能!")
 
 em=EduManagement()
 em.run()

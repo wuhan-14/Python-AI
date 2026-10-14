@@ -9,6 +9,8 @@ print(isinstance(a, int))
 print(isinstance(a, float))
 print(isinstance(a, bool))
 
+print("-------------------------")
+
 s1="Hello"
 s2='Python'
 s3="""
@@ -23,6 +25,8 @@ print(type(s1))
 print(type(s2))
 print(type(s3))
 
+print("-------------------------")
+
 msg1='It\'s a dog'
 print(msg1)
 msg2="It's a dog"
@@ -35,6 +39,8 @@ print(msg4)
 
 print("\t欢迎学习Python\n\t加油努力")
 
+print("-------------------------")
+
 s1="人生苦短""我用Python"",OK"
 print(s1)
 s2="人生苦短"+"我用Python"+",OK"
@@ -42,6 +48,8 @@ print(s2)
 msg1="人生苦短"
 msg2="我学Python"
 print("我说:"+msg1+msg2)
+
+print("-------------------------")
 
 name="王五"
 age=20

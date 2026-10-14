@@ -3,6 +3,8 @@ if score>680:
     print("欢迎你来到清华读书")
     print("也恭喜你踏入精彩的大学生活")
 
+print("-------------------------")
+
 ok_account="123456"
 ok_password="123456"
 account=input("请输入账号:")
@@ -20,12 +22,16 @@ if account==ok_account and password==ok_password:
 else:
     print("登陆失败")
     print("账号或密码错误")
+
+print("-------------------------")
     
 year=int(input("请输入一个年份:"))
 if (year%4==0 and year%100!=0)or (year%400==0):
     print(f"{year}是闰年")
 else:
     print(f"{year}不是闰年")
+
+print("-------------------------")
 
 num=int(input("请输入一个整数:"))
 if num>0:
@@ -34,6 +40,8 @@ elif num<0:
     print(f"{num}是一个负数")
 else:
     print(f"{num}是'0'")
+
+print("-------------------------")
 
 username=input("请输入用户名:")
 password=input("请输入密码:")
@@ -45,6 +53,8 @@ elif username=="zhangsan" and password=="888888":
     print("登陆成功")
 else:
     print("登陆失败,账号或密码错误")
+
+print("-------------------------")
 
 a=int(input("请输入第一条边边长:"))
 b=int(input("请输入第二条边边长:"))

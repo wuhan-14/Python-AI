@@ -7,6 +7,8 @@ for i in s:
     print(i,end=" ")
 print()
 
+print("-------------------------")
+
 print(s[0:5:1])
 print(s[:5:1])
 print(s[0:5])
@@ -18,6 +20,8 @@ print(s[6::1])
 print(s[0:5:2])
 print(s[-1:-7:-1])
 print(s[::-1])
+
+print("-------------------------")
 
 print(s.find("P"))
 print(s.count("o"))

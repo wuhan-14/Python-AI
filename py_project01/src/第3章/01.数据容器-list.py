@@ -2,11 +2,15 @@ s=[50,90,88,65,90,"A","Hello",True]
 
 print(type(s))
 
+print("-------------------------")
+
 print(s[0])
 print(s[-8])
 
 print(s[2])
 print(s[-6])
+
+print("-------------------------")
 
 s[5]="ABC"
 print(s)
@@ -14,8 +18,12 @@ print(s)
 del s[6]
 print(s)
 
+print("-------------------------")
+
 for item in s:
     print(item,end=" ")
+print()
+print("-------------------------")
 
 s=["A","C","H","K","L","B","D","X","C","U"]
 
@@ -30,6 +38,8 @@ print(s[:5])
 
 print(s[0:5:2])
 print(s[0:-2:1])
+
+print("-------------------------")
 
 s=[56,90,88,65,90,100,209,72,145]
 s.append(188)

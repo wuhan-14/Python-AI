@@ -5,6 +5,8 @@ while i<10:
 else:
     print("循环结束")
 
+print("-------------------------")
+
 i=0
 sum=0
 while i<=100:

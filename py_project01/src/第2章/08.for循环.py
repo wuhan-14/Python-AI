@@ -5,16 +5,22 @@ for s in msg:
 else:
     print("遍历结束")
 
+print("-------------------------")
+
 sum=0
 for i in range(1,101):
     if i%2!=0:
         sum+=i
 print(sum)
 
+print("-------------------------")
+
 sum=0
 for i in range(1,101,2):
     sum+=i
 print(sum)
+
+print("-------------------------")
 
 sum=0
 for i in range(100,501):
@@ -22,12 +28,16 @@ for i in range(100,501):
         sum+=i
 print(sum)
 
+print("-------------------------")
+
 m=int(input("请输入长度:"))
 n=int(input("请输入宽度:"))
 for _ in range(n):
     for _ in range(m):
         print("*",end="  ")
     print("\n")
+
+print("-------------------------")
 
 for i in range(1,10):
     for j in range(1,i+1):
